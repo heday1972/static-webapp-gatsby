@@ -82,10 +82,10 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Welcome to <b>Gatsby! Htakahashi</b>
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
+        <b>Example pages: by Hideaki Takahashi</b>{" "}
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
